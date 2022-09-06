@@ -6,6 +6,16 @@
     border: 0px;
 }
 
-.table {
-    
+.searchField{
+    background: #fff;
+    width: 320px;
+    height: 36px;
+    padding: 8px 12px;
+    border: 1px solid gray;
+    border-radius: 100px;
+    float: right;
+
+    input {
+        outline: none;
+    }
 }

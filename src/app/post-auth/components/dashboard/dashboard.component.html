@@ -5,6 +5,11 @@
   </div>
 
   <div class="content">
+    <div class="searchField d-flex align-items-center mb-4">
+      <img src="/assets/images/search-icon.svg" alt="nft-image" width="20" height="20">
+      <input class="ms-2 w-100 border-0 fs-8" type="text" placeholder="Search Name:"  (keyup)="onChange($event)" [(ngModel)]="searchText" >
+    </div>
+
     <table class="table">
       <thead class="bg-secondary text-white">
         <tr>
